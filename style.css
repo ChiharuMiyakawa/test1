@@ -1,0 +1,180 @@
+.header{
+    height: 50px;
+color:orange;
+    background-color:aliceblue;
+    padding: 10px 40px;
+}
+.potepan{
+    width: 100%;
+    text-align: start;
+}
+.potepan:hover{
+    opacity: 0.5;
+}
+.menu{
+    color: black;
+    display: flex; 
+    gap:5px;
+    text-align: center;
+    font-size: 12px;
+    margin-right: 20px;
+
+}
+.menu a {
+    text-decoration: none;
+    width: 100px;
+    color: black;
+}
+.menu  :hover{
+    opacity: 0.5;
+}
+.button{
+    margin: 0px 5px;
+    width: 130px;
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+}
+.button:hover{
+    opacity: 0.5;
+}
+.button a{
+    display: block;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+.flex_2{
+    display: flex;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    font-size: 12px;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+.main{
+    position: relative;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    margin-left: 50px;
+}
+.flex_main_all{
+    display: flex;
+    width: 50%;
+    justify-content:flex-start;
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+
+.main h1{
+    text-align: center;
+}
+.flex_main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    color: orange;
+}
+.flex_main >div{
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    border:5px solid orange;
+    border-radius: 50%;
+}
+.text>p{
+    padding: 0;
+    margin: 0;
+}
+.text>p>span{
+    color:gainsboro;
+    font-size: 5px;
+    align-items: start;
+}
+.main_1>p:nth-child(1){
+font-size: 12px;
+}
+.main_1>p:nth-child(2){
+    font-size: 20px;
+    }
+.main_2>p:nth-child(1){
+        font-size: 18px;
+}
+.main_2>p:nth-child(2){
+    font-size: 30px;
+}
+.main_3>p:nth-child(1){
+    font-size: 12px;
+    }
+    .main_3>p:nth-child(2){
+        font-size: 20px;
+    }
+.button2{
+
+    background-color: orange;
+    text-align: center;
+
+    border-radius: 20px;
+}
+.button2:hover{
+    opacity: 0.5;
+}
+.button2 a{
+    display: block;
+    padding: 20px 100px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.main_bottom{
+    margin-bottom:100px;
+    color: gainsboro;
+    text-align: start;
+    margin:0;
+    font-size: 12px;
+    padding: 0;
+}
+.main_bottom>p{
+    margin: 0;
+    margin-right:50px;
+    padding: 0;
+}
+
+
+.footer{
+    color:white;
+    background-color: orange;
+    height: 500px;
+    padding-top: 10px;
+
+}
+.flex_footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.video{
+    display: inline-block;
+    height: auto;
+    width: 500px;
+    text-align: start;
+    margin-left: 50px;
+}
+.flex_item2{
+    display: inline-block;
+    max-width: 500px;
+    width: 50%;
+    text-align:start;
+    margin-left: 20px;
+    margin-right: 50px;
+}
